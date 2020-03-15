@@ -10,10 +10,12 @@ namespace SinusTaylor
         {
             long result;
             result = number;
+
             for (int i = number - 1; i >= 1; i--)
             {
                 result *= i;
             }
+
             return result;
         }
     }
